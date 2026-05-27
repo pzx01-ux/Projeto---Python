@@ -6,10 +6,10 @@ Tentativas = 0
 
 print('Bem-vindo ao jogo de adivinhação!')
 
+print('O computador escolheu um número entre 1 e 100. Tente adivinhar qual é!')
 palpite = int(input('Digite um número entre 1 e 100: '))
 
-print("O computador escolheu o número 1 a 100 você consegue adivinhar qual é?")
-print(f"Digite um número entre 1 e 100: {palpite}")
+
 
 while palpite != resposta:
     Tentativas += 1
