@@ -1,0 +1,29 @@
+{
+    "produto": "arroz",
+    "preco": 15.6,
+    "quantidade": 8
+}{
+    "produto": "feij\u00e3o",
+    "preco": 5.6,
+    "quantidade": 9
+}[
+    {
+        "produto": "arroz"
+    },
+    {
+        "preco": 15.6
+    },
+    {
+        "quantidade": 8
+    }
+][
+    {
+        "produto": "feij\u00e3o"
+    },
+    {
+        "preco": 5.6
+    },
+    {
+        "quantidade": 9
+    }
+]

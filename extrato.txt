@@ -1,3 +1,1 @@
 
-deposito: R$ 600.00
-Saque: R$ 250.00
