@@ -1,0 +1,10 @@
+[
+    {
+        "produto": "arroz",
+        "quantidade": 10
+    },
+    {
+        "produto": "macarrão",
+        "quantidade": 10
+    }
+]
