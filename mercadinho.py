@@ -1,10 +1,10 @@
 import json
 produto = 0
 valor = 0
-with open ("estoque.json", "r") as f:
-    try:
-        lista_produto = json.laod(f)
-    except:
+try:
+    with open ("estoque.json", "r") as f:
+        lista_produto = json.load(f)
+except:
         lista_produto = []
 
 
@@ -18,8 +18,8 @@ def cadastra_produto():
         "quantidade":  q_estoque
     }
     lista_produto.append(produto2)
-    with open("estoque.json" , "a") as f:
-        json.dump(produto2 , f, indent=4)
+    with open("estoque.json" , "w") as f:
+        json.dump(lista_produto , f, indent=4, ensure_ascii=False)
     return lista_produto
 
 def ver_lista(lista_produto):
