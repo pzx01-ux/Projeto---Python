@@ -35,7 +35,7 @@ def cadastra_produto():
 
 def ver_lista(lista_produto):
     for produto2 in lista_produto:
-        print(f"Produto: {produto2["produto"]} | Preço: R${produto2["preco"]} | Estoque {produto2["quantidade"]}")
+        print(f"Produto: {produto2['produto']} | Preço: R${produto2['preco']} | Estoque {produto2['uantidade']}")
 
 def vendas(lista_produto):
     venda_produto = input("Digite o nome do produto: ")
